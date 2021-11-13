@@ -1,6 +1,5 @@
 import styled from "styled-components";
 export const MainStyled = styled.div`
-  text-align: center;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
@@ -9,6 +8,7 @@ export const MainStyled = styled.div`
     align-items: center;
     justify-content: center;
   }
+
   .main__input {
     /* width: 587px; */
     margin-right: 20px;
@@ -45,6 +45,9 @@ export const MainStyled = styled.div`
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
+  }
+  button {
+    margin-top: 20px;
   }
   .form__input:focus {
     border: 1px solid #87d78b;
