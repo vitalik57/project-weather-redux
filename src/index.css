@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+background-image:url('./images/city.jpg') ;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+     overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
